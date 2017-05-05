@@ -1,0 +1,87 @@
+form, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font: 12px arial;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.text {
+    font-family: Dosis, sans-serif;
+}
+
+#wrapper, #loginform {
+    margin: 0 auto;
+    background-color: rgba(0, 148, 149, .25);
+    border: #95989A solid 2px;
+    width: 504px;
+    border: 1px solid #ACD8F0;
+}
+
+#loginform {
+    padding-top: 18px;
+}
+
+#loginform p {
+    margin: 5px;
+}
+
+#chatbox {
+    font-family: Dosis, sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(0, 148, 149, .25);
+    height: 400px;
+    width: 50%;
+    border: 1px solid #f6f6f6;
+    overflow: auto;
+}
+#userInput {
+    font-family: Dosis, sans-serif;
+    text-align: center;
+}
+#usermsg {
+    font-family: Dosis, sans-serif;
+    width: 395px;
+    border: 1px solid #f6f6f6;
+    margin: 10px;
+}
+
+#submit {
+    width: 60px;
+}
+
+#giphy {
+    width: 60px;
+}
+
+#giphyImages img{
+    cursor:pointer;
+
+}
+
+#giphyImages img:hover {
+   border: 2px inset #000;
+}
+
+#heading {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Dosis, sans-serif;
+}
+
+button {
+    margin: 10px;
+}
+
+
