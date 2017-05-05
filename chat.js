@@ -1,6 +1,6 @@
 "use strict";
         // api.ai token and url
-        var accessToken = "427fba490ee242f5b6081ce0fd8bd27a",
+        var accessToken = "f3360fffaa6e4b00a8e7d43461ea1ab0",
             baseUrl = "https://api.api.ai/v1/";
 
         // giphy api token
@@ -38,7 +38,7 @@
 
         // sends to apis 
         function send(text) {
-            console.log(JSON.stringify({ query: text, lang: "en", sessionId: "stealth" }));
+            console.log(JSON.stringify({ query: text, lang: "en", sessionId: "ExpWriting" }));
             var chatbox = $("#chatbox");
             writeToChatbox("You", text);
             console.log("Sending " + text);
