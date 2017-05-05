@@ -26,6 +26,8 @@
                 start += sender + ": ";
                 chatbox[0].innerHTML = start + message;
             }
+
+            chatbox[0].scrollTop = chatbox[0].scrollHeight;
             
         }
 
